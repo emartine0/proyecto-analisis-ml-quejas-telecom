@@ -1,6 +1,8 @@
 # proyecto-analisis-ml-quejas-telecom
 Este conjunto de análisis combina analisis de machinelearning y visualización mostrando un trabajo completo de ciencia de datos sobre un conjunto de datos reales.
 
+## 📂 Estructura del Repositorio
+```
 proyecto-analisis-ml-quejas-telecom/
 │
 ├── .gitignore
@@ -32,3 +34,8 @@ proyecto-analisis-ml-quejas-telecom/
 │
 └── tableau/                  # Archivos .twbx o enlaces al dashboard interactivo
     └── README.md
+```
+
+
+
+
