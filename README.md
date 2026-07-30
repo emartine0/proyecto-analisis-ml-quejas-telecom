@@ -6,9 +6,18 @@ Este conjunto de análisis combina analisis de machinelearning y visualización 
 
 ## Contexto del Problema
 Uno de los objetivos de la PROFECO es la protección de los derechos de las personas consumidoras frente a abusos en las relaciones comerciales, por lo tanto entre sus atribuciones se encuentra la de la atención a quejas de caracter comercial. Por lo tanto, lo que busca este análisis es mejorar el proceso de atención, esto es hacer los procesos de atención más eficientes y eficazes, lo cual se busca hacer identificando 4 puntos clave, que son:
-- Identificar quejas recién ingresadas cuya predicción supere los 60 días para asignarles prioridad alta o canalizarlas por vías rápidas.
--  Un mapa o gráfico de barras que compare el promedio de días predichos por oficina de defensa del consumidor para nivelar la carga de trabajo entre oficinas.
--   identificar los casos "Críticos" (Baja probabilidad de acuerdo y resolución muy lenta).
+- Identificar quejas recién ingresadas cuya predicción supere los 60 días para asignarles prioridad alta.
+- Identificar los casos "Críticos" (Baja probabilidad de acuerdo y resolución muy lenta).
+- Identificar las reclamaciones monetarias cuyo tasa de recuperacion sea menor al 65% para dar mayor prioridad.
+- Identificar los casos "Criticos" (Baja probabilidad de recuperacion y tasa de recuperación muy baja)
+
+## Arquitectura de Machine Learning:
+- Modelo 1 (Clasificación): Predicción de resultado (Conciliado vs. No Conciliado).
+- Modelo 2 (Regresión Logarítmica): Estimación del tiempo de resolución (Días).
+- Modelo 3 (Clasificación): Predicción de resultado (Monto Recuperado vs. Monto No Recuperado).
+- Modelo 4 (Regresión Basado en Arboles): Estimación de la tasa de recuperación.
+
+
 
 ## 📂 Estructura del Repositorio
 ```
