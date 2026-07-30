@@ -11,16 +11,16 @@ Uno de los objetivos de la PROFECO es la protección de los derechos de las pers
 - Identificar las reclamaciones monetarias cuyo tasa de recuperacion sea menor al 65% para dar mayor prioridad.
 - Identificar los casos "Criticos" (Baja probabilidad de recuperacion y tasa de recuperación muy baja)
 ---
-## Arquitectura de Machine Learning:
+## Arquitectura de Machine Learning
 - Modelo 1 (Clasificación): Predicción de resultado (Conciliado vs. No Conciliado).
 - Modelo 2 (Regresión Logarítmica): Estimación del tiempo de resolución (Días).
 - Modelo 3 (Clasificación): Predicción de resultado (Monto Recuperado vs. Monto No Recuperado).
 - Modelo 4 (Regresión Basado en Arboles): Estimación de la tasa de recuperación.
 ---
-## Resultados e Impacto (Métricas)
+## Resultado e Impacto (Métricas)
 El modelo de clasificación (Random Forest) alcanzó un AUC-ROC de 0.76 en el conjunto de prueba no visto. Mientras que el error medio absoluto (MAE) del modelo de tiempo fue ______. Este resultado se considera altamente aceptable y robusto para la predicción de comportamiento de conciliación en telecomunicaciones, considerando que los datos dependen de factores de negociación no estructurados.
 ---
-## Integración con Tableau
+### Integración con Tableau
 
 ---
 ## 📂 Estructura del Repositorio
