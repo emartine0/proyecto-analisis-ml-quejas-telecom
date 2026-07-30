@@ -4,6 +4,12 @@ Este conjunto de análisis combina analisis de machinelearning y visualización 
 > ⚠️ **Aviso:** 
 > Este proyecto fue desarrollado con fines educativos y de aprendizaje y se encuentra actualmente en fase de revisión y optimización. Tenga en cuenta que el código en Python y la estructura en Tableau contienen oportunidades de mejora.
 
+## Contexto del Problema
+Uno de los objetivos de la PROFECO es la protección de los derechos de las personas consumidoras frente a abusos en las relaciones comerciales, por lo tanto entre sus atribuciones se encuentra la de la atención a quejas de caracter comercial. Por lo tanto, lo que busca este análisis es mejorar el proceso de atención, esto es hacer los procesos de atención más eficientes y eficazes, lo cual se busca hacer identificando 4 puntos clave, que son:
+- Identificar quejas recién ingresadas cuya predicción supere los 60 días para asignarles prioridad alta o canalizarlas por vías rápidas.
+-  Un mapa o gráfico de barras que compare el promedio de días predichos por oficina de defensa del consumidor para nivelar la carga de trabajo entre oficinas.
+-   identificar los casos "Críticos" (Baja probabilidad de acuerdo y resolución muy lenta).
+
 ## 📂 Estructura del Repositorio
 ```
 proyecto-analisis-ml-quejas-telecom/
