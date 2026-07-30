@@ -1,6 +1,9 @@
 # proyecto-analisis-ml-quejas-telecom
 Este conjunto de análisis combina analisis de machinelearning y visualización mostrando un trabajo completo de ciencia de datos sobre un conjunto de datos reales.
 
+> ⚠️ **Aviso:** 
+> Este proyecto fue desarrollado con fines educativos y de aprendizaje y se encuentra actualmente en fase de revisión y optimización. Tenga en cuenta que el código en Python y la estructura en Tableau contienen oportunidades de mejora.
+
 ## 📂 Estructura del Repositorio
 ```
 proyecto-analisis-ml-quejas-telecom/
