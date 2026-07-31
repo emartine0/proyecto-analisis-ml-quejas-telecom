@@ -46,7 +46,7 @@ proyecto-analisis-ml-quejas-telecom/
 │   ├── 01_eda_limpieza.ipynb
 │   └── 02_modelado_predictivo.ipynb
 │  
-├── src/                          # Código fuente modular en scripts .py (producción)
+├── fuente/                          # Código fuente modular en scripts .py (producción)
 │   ├── __init__.py
 │   ├── prep_datos.py             # Limpieza y feature engineering
 │   ├── tr_clasificacion.py       # Entrenamiento del modelo de conciliación y recuperación
