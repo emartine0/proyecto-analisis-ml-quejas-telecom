@@ -10,19 +10,25 @@ Uno de los objetivos de la PROFECO es la protección de los derechos de las pers
 - Identificar los casos "Críticos" (Baja probabilidad de acuerdo y resolución muy lenta).
 - Identificar las reclamaciones monetarias cuyo tasa de recuperacion sea menor al 65% para dar mayor prioridad.
 - Identificar los casos "Criticos" (Baja probabilidad de recuperacion y tasa de recuperación muy baja)
+
 ---
+
 ## Arquitectura de Machine Learning
 - Modelo 1 (Clasificación): Predicción de resultado (Conciliado vs. No Conciliado).
 - Modelo 2 (Regresión Logarítmica): Estimación del tiempo de resolución (Días).
 - Modelo 3 (Clasificación): Predicción de resultado (Monto Recuperado vs. Monto No Recuperado).
 - Modelo 4 (Regresión Basado en Arboles): Estimación de la tasa de recuperación.
----
-## Resultado e Impacto (Métricas)
 
 ---
+
+## Resultado e Impacto (Métricas)
+Los modelos de clasificación alcanzaron un AUC-ROC de _______  y _______, respectivamente, en el conjunto de prueba no visto. Por otro lado, el error medio absoluto (MAE) fue de ____ y ____, respectivamente. Estos resultados se consideran altamente aceptables y robustos para la predicción de comportamientos para los 4 objetivos principales de este análisis, considerando que los datos dependen de factores de negociación no estructurados.
+
+
 ### Integración con Tableau
 
 ---
+
 ## 📂 Estructura del Repositorio
 ```
 proyecto-analisis-ml-quejas-telecom/
