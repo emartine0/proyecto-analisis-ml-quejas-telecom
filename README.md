@@ -59,7 +59,7 @@ proyecto-analisis-ml-quejas-telecom/
 │   ├── model_tasa.joblib
 │   └── model_tiempo.joblib
 │
-└── tableau/                      # Archivos .twbx o enlaces al dashboard interactivo
+└── tableau/                      # Archivos .twbx y enlaces al dashboard interactivo
     └── README.md
 ```
 
