@@ -34,30 +34,30 @@ Los modelos de clasificación alcanzaron un AUC-ROC de _______  y _______, respe
 proyecto-analisis-ml-quejas-telecom/
 │
 ├── README.md
-├── requirements.txt
+├── requerimientos.txt
 ├── LICENSE
 │
-├── data/
-│   ├── raw/                      # Datos originales sin modificar (CSV descargado)
-│   ├── processed/                # Datos limpios y listos para entrenar (features listos)
-│   └── predictions/              # Datasets finales con las 3 predicciones para Tableau
+├── datos/                        # Datos originales, datos de preanalisis y datos analizados 
+│   ├── quejas_telecom.csv
+│   ├── quejas_telecom_lf.csv
+│   └── quejas_telecom_ml.csv            
 │
 ├── notebooks/                    # Jupyter Notebooks para exploración e investigación
 │   ├── 01_eda_limpieza.ipynb
-│   ├── 02_nlp_clasificacion.ipynb
-│   └── 03_modelado_predictivo.ipynb
-│
+│   └── 02_modelado_predictivo.ipynb
+│  
 ├── src/                          # Código fuente modular en scripts .py (producción)
 │   ├── __init__.py
-│   ├── data_prep.py              # Limpieza y feature engineering
-│   ├── train_classification.py   # Entrenamiento del modelo de conciliación
-│   ├── train_regression.py       # Entrenamiento de tasa de recuperación y tiempo
+│   ├── prep_datos.py             # Limpieza y feature engineering
+│   ├── tr_clasificacion.py       # Entrenamiento del modelo de conciliación y recuperación
+│   ├── tr_regresion.py           # Entrenamiento del tiempo de resolucion y la tasa de recuperación
 │   └── predict.py                # Script para generar predicciones en datos nuevos
 │
-├── models/                       # Modelos guardados (.pkl o .joblib)
-│   ├── model_conciliacion.joblib
-│   ├── model_tasa.joblib
-│   └── model_tiempo.joblib
+├── modelos/                      # Modelos guardados (.pkl o .joblib)
+│   ├── modelo_conciliacion.joblib
+|   ├── modelo_tiempo.joblib
+|   ├── modelo_recuperacion.jobli
+│   └── modelo_tasa.joblib
 │
 └── tableau/                      # Archivos .twbx y enlaces al dashboard interactivo
     └── README.md
